@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/71df43c7de.js" crossorigin="anonymous"></script>
+  <title>Father Josh's Pizza</title>
+</head>
+<body>
+  <div class="nav-container">
+    <nav class="navbars first-navbar">
+      <div class="logo-container">
+        <img class="logo-image" src="./images/logo.png" alt="logo">
+      </div>
+      <ul class="nav-links1 nav-links">
+        <li>
+          <a href="#">Start your order</a>
+        </li>
+        <li>
+          <a href="#"><i class="fa fa-globe" aria-hidden="true"></i> EN <i class="fa fa-angle-down"></i></a>
+        </li>
+        <li>
+          <a href="#">log in <i class="fa fa-angle-down"></i></a>
+        </li>
+        <li>
+          <a href="#">sign up</a>
+        </li>
+      </ul>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+    <nav class="navbars second-navbar">
+      <ul class="nav-links nav-links2">
+        <li>
+          <a class="underline-link active" href="#">menu</a>
+        </li>
+        <li>
+          <a class="underline-link" href="#">specials</a>
+        </li>
+        <li>
+          <a class="underline-link" href="#">rewards</a>
+        </li>
+      </ul>
+      <div class="promo-div">
+        <input class="hide-on-mobile promo-input" type="text" placeholder="Enter a promo code">
+        <input type="submit" value="Apply" class="hide-on-mobile btn2 apply-button promo-input"></input>
+        <div class="border-line">
+          <div class="line4"></div>
+        </div>
+        <div class="shopping-cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i> <span class="shopping-cart-total hide-on-mobile">$0.00</span></div>
+      </div>
+    </nav>
+  </div>
+
+  <section class="menu">
+    <!-- filter buttons -->
+    
+    <div class="btn-container">
+      <button class="filter-btn" type="button" data-id="pizza">pizza</button>
+      <button class="filter-btn" type="button" data-id="papadias">papadias</button>
+      <button class="filter-btn" type="button" data-id="sides">sides</button>
+      <button class="filter-btn" type="button" data-id="desserts">desserts</button>
+      <button class="filter-btn" type="button" data-id="drinks">drinks</button>
+      <button class="filter-btn" type="button" data-id="extras">extras</button>
+    </div>
+      <!-- menu items -->
+    <div class="section-center">
+        <!--Single item--><!--
+        <article class="menu-item">
+          <img src="/images/pepperoni-slate-compressed.jpg" class="photo" alt="">
+          <div class="item-info">
+            <header>
+              <h4 class="item-name">Pepperoni</h4>
+              <button class="order-button">Order Now</button>
+            </header>
+          </div>
+        </article> -->
+        <!-- end of single item -->
+      
+    </div>
+  </section>
+  <script src="app.js"></script>
+</body>
+</html>
