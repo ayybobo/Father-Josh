@@ -350,11 +350,6 @@ filterBtns.forEach((btn) => {
     }
     });
     //console.log(menuCategory)
-  if(category === "all"){
-    displayMenuItems(menu);
-  } else {
-        displayMenuItems(menuCategory)
-      }
   })
 })
 
