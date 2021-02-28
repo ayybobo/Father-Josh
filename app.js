@@ -87,7 +87,7 @@ const menu = [
     id: 15,
     title: "fiery buffalo chicken",
     category: "pizza",
-    img: "/images/fiery-buffalo-chicken-slate-compressed.jpg"
+    img: "./images/fiery-buffalo-chicken-slate-compressed.jpg"
   },
   {
     id: 16,
@@ -105,7 +105,7 @@ const menu = [
     id: 18,
     title: "grilled buffalo chicken",
     category: "papadias",
-    img: "/images/buffalo-chicken-papadia-compressed.jpg"
+    img: "./images/buffalo-chicken-papadia-compressed.jpg"
   },
   {
     id: 19,
@@ -117,7 +117,7 @@ const menu = [
     id: 20,
     title: "BBQ chicken bacon papadia",
     category: "papadias",
-    img: "/images/BBQ-chicken-bacon-papadia-compressed.jpg"
+    img: "./images/BBQ-chicken-bacon-papadia-compressed.jpg"
   },
   {
     id: 21,
@@ -129,7 +129,7 @@ const menu = [
     id: 22,
     title: "meatball pepperoni papadia",
     category: "papadias",
-    img: "/images/meatball-pepp-papadia-compressed.jpg"
+    img: "./images/meatball-pepp-papadia-compressed.jpg"
   },
   {
     id: 23,
